@@ -1,0 +1,29 @@
+main{
+    display:flex;
+    flex-direction:row;
+}
+section .nav{
+    width:30%;
+    padding:30px 0px;
+    border-style: solid;
+    border-color:#99A2A2;;
+    border-width: 0px 2px 0px 0px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    border-style: solid;
+    border-color:#99A2A2;;
+    border-width: 2px 0px 0px 0px;
+    padding:10px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#99A2A2;
+}
+section .article{
+    width:70%;
+    padding:30px;
+}
